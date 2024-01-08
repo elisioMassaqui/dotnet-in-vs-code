@@ -22,12 +22,12 @@ int totalRoll = roll1 + roll2 + roll3;
 
 Console.WriteLine($"Dice Roll: {roll1} + {roll2} + {roll3} = {totalRoll}");
 
-if (totalRoll > 14)
+if (totalRoll >= 15)
 {
        Console.WriteLine("You Win");
 }
 
-if (totalRoll < 15)
+else
 {
        Console.WriteLine("Sorry, You Lose");
 }
@@ -60,6 +60,30 @@ if (message.Contains("fox"))
 if((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3)){
        Console.WriteLine("You rolled doubles! +2 bonus to total!");
        totalRoll += 2;
+}
+
+Random random = new Random();
+int daysUntilExpiration = random.Next(12);
+int discountPercentage = 0;
+
+if (daysUntilExpiration <= 10)
+{
+       Console.WriteLine("Your subscription will expire soon. Renew now!");
+}
+else if (daysUntilExpiration <= 5)
+{
+       Console.WriteLine("Your subscription expires in _ days");
+       Console.WriteLine("Renew and save 10%");
+}
+else if(daysUntilExpiration == 1){
+       Console.WriteLine("Your subscription expires within days");
+       Console.WriteLine("Renew and save 20%");
+}
+else if(daysUntilExpiration > 10){
+       Console.WriteLine();
+}
+if(daysUntilExpiration == 0){
+       Console.WriteLine("Your subscription has expired.");
 }
  // Aguarda a, entrada, do usuário antes de encerrar o programa.
         Console.ReadLine();
