@@ -1,0 +1,14 @@
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\bin\Debug\net8.0\learn csharp.exe
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\bin\Debug\net8.0\learn csharp.deps.json
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\bin\Debug\net8.0\learn csharp.runtimeconfig.json
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\bin\Debug\net8.0\learn csharp.dll
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\bin\Debug\net8.0\learn csharp.pdb
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\obj\Debug\net8.0\learn csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\obj\Debug\net8.0\learn csharp.AssemblyInfoInputs.cache
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\obj\Debug\net8.0\learn csharp.AssemblyInfo.cs
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\obj\Debug\net8.0\learn csharp.csproj.CoreCompileInputs.cache
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\obj\Debug\net8.0\learn csharp.dll
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\obj\Debug\net8.0\refint\learn csharp.dll
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\obj\Debug\net8.0\learn csharp.pdb
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\obj\Debug\net8.0\learn csharp.genruntimeconfig.cache
+C:\Users\MASSAQUI\Desktop\Learn C#\dotnet in vs code\learn csharp\obj\Debug\net8.0\ref\learn csharp.dll
