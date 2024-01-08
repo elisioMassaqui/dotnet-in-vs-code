@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\MASSAQUI\\Desktop\\Learn C#\\dotnet in vs code\\learn csharp\\learn csharp.csproj": {}
+    "C:\\Users\\MASSAQUI\\Desktop\\Learn C#\\dotnet in vs code\\learn csharp\\learn csharp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\MASSAQUI\\Desktop\\Learn C#\\dotnet in vs code\\learn csharp\\learn csharp.csproj": {
+    "C:\\Users\\MASSAQUI\\Desktop\\Learn C#\\dotnet in vs code\\learn csharp\\learn csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\MASSAQUI\\Desktop\\Learn C#\\dotnet in vs code\\learn csharp\\learn csharp.csproj",
+        "projectUniqueName": "C:\\Users\\MASSAQUI\\Desktop\\Learn C#\\dotnet in vs code\\learn csharp\\learn csharp.csproj",
         "projectName": "learn csharp",
-        "projectPath": "c:\\Users\\MASSAQUI\\Desktop\\Learn C#\\dotnet in vs code\\learn csharp\\learn csharp.csproj",
+        "projectPath": "C:\\Users\\MASSAQUI\\Desktop\\Learn C#\\dotnet in vs code\\learn csharp\\learn csharp.csproj",
         "packagesPath": "C:\\Users\\MASSAQUI\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\MASSAQUI\\Desktop\\Learn C#\\dotnet in vs code\\learn csharp\\obj\\",
+        "outputPath": "C:\\Users\\MASSAQUI\\Desktop\\Learn C#\\dotnet in vs code\\learn csharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MASSAQUI\\AppData\\Roaming\\NuGet\\NuGet.Config"
