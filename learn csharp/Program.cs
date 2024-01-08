@@ -61,5 +61,5 @@ if((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3)){
        Console.WriteLine("You rolled doubles! +2 bonus to total!");
        totalRoll += 2;
 }
- // Aguarda a, entrada do usuário antes de encerrar o programa.
+ // Aguarda a, entrada, do usuário antes de encerrar o programa.
         Console.ReadLine();
