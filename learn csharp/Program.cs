@@ -33,5 +33,5 @@ int largerValue = Math.Max(firsValue, secondValue);
 Console.WriteLine(largerValue);
 
 
- // Aguarda a entrada do usuário antes de encerrar o programa.
+ // Aguarda a, entrada do usuário antes de encerrar o programa.
         Console.ReadLine();
