@@ -9,6 +9,5 @@ Console.WriteLine(numero);
 
 
 
-
  // Aguarda a entrada do usuário antes de encerrar o programa.
         Console.ReadLine();
