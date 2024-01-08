@@ -17,6 +17,21 @@ int roll3 = dice.Next(50, 101);
 Console.WriteLine($"First Roll: {roll1}");
 Console.WriteLine($"Second roll: {roll2}");
 Console.WriteLine($"Third roll: {roll3}");
+
+int totalRoll = roll1 + roll2 + roll3;
+
+Console.WriteLine($"Dice Roll: {roll1} + {roll2} + {roll3} = {totalRoll}");
+
+if (totalRoll > 14)
+{
+       Console.WriteLine("You Win");
+}
+
+if (totalRoll < 15)
+{
+       Console.WriteLine("Sorry, You Lose");
+}
+
 //Directamente sem atribuir a uma variavel.
 Console.WriteLine(dice.Next(1, 7));
 
@@ -31,6 +46,9 @@ int firsValue = 500;
 int secondValue = 600;
 int largerValue = Math.Max(firsValue, secondValue);
 Console.WriteLine(largerValue);
+
+
+
 
 
  // Aguarda a, entrada do usuário antes de encerrar o programa.
