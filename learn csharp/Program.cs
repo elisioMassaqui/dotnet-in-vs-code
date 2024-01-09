@@ -121,5 +121,11 @@ foreach(string name in names){
        Console.WriteLine(name);
 }
 
+
+int[] numbersfor = {1, 2, 3, 4};
+
+foreach(int numeberfor in numbersfor){
+       Console.WriteLine(numeberfor);
+}
  // Aguarda a, entrada, do usuário antes de encerrar o programa.
         Console.ReadLine();
