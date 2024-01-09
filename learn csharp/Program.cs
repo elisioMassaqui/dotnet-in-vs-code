@@ -155,3 +155,20 @@ string first = "Hello";
 string second = "World";
 Console.WriteLine("{1} {0}!", first, second);
 Console.WriteLine("{0} {0} {0}!", first, second);
+
+void SayHello() 
+{
+    Console.WriteLine("Hello World!");
+}
+
+int[] a = {1,2,3,4,5};
+Console.WriteLine("Contents of Array");
+PrintArray();
+
+void PrintArray(){
+       foreach (var x in a)
+       {
+              Console.WriteLine($"{x}");
+       }
+       Console.WriteLine();
+}
