@@ -153,5 +153,5 @@ foreach (string orderID in orderIDs)
 
 string first = "Hello";
 string second = "World";
-string result5 = string.Format("{1} {0}!", first, second);
-Console.WriteLine(result5);
+Console.WriteLine("{1} {0}!", first, second);
+Console.WriteLine("{0} {0} {0}!", first, second);
