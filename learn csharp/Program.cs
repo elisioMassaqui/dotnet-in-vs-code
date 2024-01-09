@@ -115,6 +115,11 @@ Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
 
 Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
 
+string[] names = {"Rosa", "Robin", "Bao"};
+
+foreach(string name in names){
+       Console.WriteLine(name);
+}
 
  // Aguarda a, entrada, do usuário antes de encerrar o programa.
         Console.ReadLine();
