@@ -150,5 +150,72 @@ foreach (string orderID in orderIDs)
         Console.WriteLine(orderID);
     }
 }
+
+int first = 2;
+string second = "4";
+string result2 = first + second;
+
+string first2 = "5";
+string second2 = "7";
+
+int sum2 = int.Parse(first2) + int.Parse(second2);
+
+string value3 = "102";
+int result3 = 0;
+if (int.TryParse(value3, out result3))
+{
+   Console.WriteLine($"Measurement: {result}");
+}
+else
+{
+   Console.WriteLine("Unable to report the measurement.");
+}
+
+Console.WriteLine(result2);
+
+Console.WriteLine(sum2);
+
+int myInt = 3;
+Console.WriteLine($"int: {myInt}");
+
+decimal myDecimal = myInt;
+Console.WriteLine($"decimal: {myDecimal}");
+
+string[] pallets = { "B14", "A11", "B12", "A13" };
+
+Console.WriteLine("Sorted...");
+Array.Sort(pallets);
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+Console.WriteLine("");
+Console.WriteLine("Reversed...");
+Array.Reverse(pallets);
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  // Aguarda a, entrada, do usuário antes de encerrar o programa.
         Console.ReadLine();
