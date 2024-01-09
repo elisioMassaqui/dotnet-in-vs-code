@@ -86,7 +86,7 @@ if(daysUntilExpiration == 0){
        Console.WriteLine("Your subscription has expired.");
 }
 
-
+/*
 string[] fradulentosOrderIDs = new string[3];
 
 fradulentosOrderIDs[0] = "A123";
@@ -98,6 +98,20 @@ Console.WriteLine($"First: {fradulentosOrderIDs[0]}");
 Console.WriteLine($"Second: {fradulentosOrderIDs[1]}");
 Console.WriteLine($"Third: {fradulentosOrderIDs[2]}");
 
+fradulentosOrderIDs[0] = "F000";
+
+Console.WriteLine($"Resassign First: {fradulentosOrderIDs[0]}");
+*/
+
+string[] fraudulentOrderIDs = {"A", "B", "C"};
+
+Console.WriteLine($"First: {fraudulentOrderIDs[0]}");
+Console.WriteLine($"Second: {fraudulentOrderIDs[1]}");
+Console.WriteLine($"Third: {fraudulentOrderIDs[2]}");
+
+fraudulentOrderIDs[0] = "F000";
+
+Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
 
  // Aguarda a, entrada, do usuário antes de encerrar o programa.
         Console.ReadLine();
