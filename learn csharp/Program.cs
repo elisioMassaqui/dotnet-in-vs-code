@@ -151,56 +151,7 @@ foreach (string orderID in orderIDs)
     }
 }
 
-int first = 2;
-string second = "4";
-string result2 = first + second;
-
-string first2 = "5";
-string second2 = "7";
-
-int sum2 = int.Parse(first2) + int.Parse(second2);
-
-string value3 = "102";
-int result3 = 0;
-if (int.TryParse(value3, out result3))
-{
-   Console.WriteLine($"Measurement: {result}");
-}
-else
-{
-   Console.WriteLine("Unable to report the measurement.");
-}
-
-Console.WriteLine(result2);
-
-Console.WriteLine(sum2);
-
-int myInt = 3;
-Console.WriteLine($"int: {myInt}");
-
-decimal myDecimal = myInt;
-Console.WriteLine($"decimal: {myDecimal}");
-
-string value4 = "abc123";
-char[] valueArray = value4.ToCharArray();
-Array.Reverse(valueArray);
-string resultArray = String.Join("/", valueArray);
-Console.WriteLine(resultArray);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- // Aguarda a, entrada, do usuário antes de encerrar o programa.
-        Console.ReadLine();
+string first = "Hello";
+string second = "World";
+string result5 = string.Format("{1} {0}!", first, second);
+Console.WriteLine(result5);
