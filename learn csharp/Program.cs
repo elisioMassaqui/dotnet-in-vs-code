@@ -127,5 +127,28 @@ int[] numbersfor = {1, 2, 3, 4};
 foreach(int numeberfor in numbersfor){
        Console.WriteLine(numeberfor);
 }
+
+int[] inventory = {1, 2, 3, 4, 5, 6};
+
+int sum = 0;
+int bin = 0;
+
+foreach (int items in inventory)
+{
+    sum += items;
+    bin++;
+    Console.WriteLine($"Bin {bin} = {items} items (Running total: {sum})");
+}
+Console.WriteLine($"We have {sum} items in inventory.");
+ 
+ string[] orderIDs = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179" };
+
+foreach (string orderID in orderIDs)
+{
+    if (orderID.StartsWith("B"))
+    {
+        Console.WriteLine(orderID);
+    }
+}
  // Aguarda a, entrada, do usuário antes de encerrar o programa.
         Console.ReadLine();
