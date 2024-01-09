@@ -85,5 +85,19 @@ else if(daysUntilExpiration > 10){
 if(daysUntilExpiration == 0){
        Console.WriteLine("Your subscription has expired.");
 }
+
+
+string[] fradulentosOrderIDs = new string[3];
+
+fradulentosOrderIDs[0] = "A123";
+fradulentosOrderIDs[1] = "B456";
+fradulentosOrderIDs[2] = "C789";
+//fradulentosOrderIDs[3] = "3222";
+
+Console.WriteLine($"First: {fradulentosOrderIDs[0]}");
+Console.WriteLine($"Second: {fradulentosOrderIDs[1]}");
+Console.WriteLine($"Third: {fradulentosOrderIDs[2]}");
+
+
  // Aguarda a, entrada, do usuário antes de encerrar o programa.
         Console.ReadLine();
