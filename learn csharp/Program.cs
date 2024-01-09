@@ -160,6 +160,10 @@ void SayHello()
 {
     Console.WriteLine("Hello World!");
 }
+Console.WriteLine("Before calling a method");
+SayHello();
+Console.WriteLine("After calling a method");
+
 
 int[] a = {1,2,3,4,5};
 Console.WriteLine("Contents of Array");
@@ -171,4 +175,12 @@ void PrintArray(){
               Console.WriteLine($"{x}");
        }
        Console.WriteLine();
+}
+
+void ShowData(string a, int b, int c){
+
+}
+
+void DisplayDate(string month, int day, int year){
+       
 }
